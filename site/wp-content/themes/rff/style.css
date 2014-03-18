@@ -117,3 +117,14 @@ body {
     list-style: none;
     padding: 0 10px;
 }
+
+.widget {
+    margin: 0 0 20px;
+}
+
+.widgettitle {
+    color: #71c148;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 16px;
+}
