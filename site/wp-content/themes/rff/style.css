@@ -17,6 +17,28 @@ body {
     position: relative;
 }
 
+.menu-header-menu-container {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.menu-header-menu-container ul {
+    list-style: none;
+}
+
+.menu-header-menu-container li {
+    float: left;
+    margin-left: 10px;
+}
+
+.menu-header-menu-container a,
+.menu-header-menu-container a:hover {
+    color: #71c148;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
 .social {
     position: absolute;
     top: 0;

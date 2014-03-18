@@ -33,28 +33,12 @@
 
           <div class="social-right"></div>
         </div>
+
+        <?php wp_nav_menu(array(
+          'theme_location' => 'header-menu',
+          'depth' => 1,
+          )); ?>
       </div>
-
-      <?php wp_nav_menu(array(
-        'theme_location' => 'top_menu',
-        'depth' => 1,
-        'container' => 'div',
-        'container_class' => 'menu',
-        'menu_id' => false,
-        'menu_class' => false,
-        'fallback_cb' => false,
-        )); ?>
-
-      <?php wp_nav_menu(array(
-        'theme_location' => 'navigation',
-        'depth' => 2,
-        'container' => 'div',
-        'container_class' => 'nav',
-        'menu_class' => 'dd',
-        'menu_id' => 'dd',
-        //'walker' => new extended_walker(),
-        'fallback_cb' => false,
-        )); ?>
 
       <div class="row">
         <div class="col-xs-8">
