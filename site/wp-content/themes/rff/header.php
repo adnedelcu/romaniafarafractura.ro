@@ -15,6 +15,12 @@
   <body <?php body_class(); ?>>
     <div class="container">
       <div id="header">
+        <div class="logo">
+          <a href="<?php echo home_url(); ?>">
+            <img src="<?= get_template_directory_uri() ?>/img/logo.png"
+                 alt="<?php bloginfo('name'); ?>">
+          </a>
+        </div>
       </div>
 
       <?php wp_nav_menu(array(
