@@ -14,6 +14,50 @@ body {
 
 #header {
     height: 195px;
+    position: relative;
+}
+
+.social {
+    position: absolute;
+    top: 0;
+    right: -25px;
+    background: #71c148;
+}
+
+.social-left, .social-container, .social-right {
+    height: 33px;
+    float: left;
+}
+
+.social-container {
+    padding: 5px;
+}
+
+.social-left, .social-right {
+    background: white;
+    width: 10px;
+}
+
+.social-left {
+    border-top-right-radius: 10px;
+}
+
+.social-right {
+    border-top-left-radius: 10px;
+}
+
+.social-icon, .social-icon:hover {
+    display: block;
+    height: 22px;
+    width: 22px;
+    background: #999;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    margin: 1px;
+    float: left;
+    border-radius: 2px;
+    text-decoration: none;
 }
 
 #maincontent {

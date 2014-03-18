@@ -21,6 +21,18 @@
                  alt="<?php bloginfo('name'); ?>">
           </a>
         </div>
+
+        <div class="social">
+          <div class="social-left"></div>
+
+          <div class="social-container">
+            <a class="social-icon" href="#">g</a>
+            <a class="social-icon" href="#">t</a>
+            <a class="social-icon" href="#">f</a>
+          </div>
+
+          <div class="social-right"></div>
+        </div>
       </div>
 
       <?php wp_nav_menu(array(
