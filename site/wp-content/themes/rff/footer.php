@@ -3,9 +3,7 @@
 
         <!-- sidebar -->
         <div class="col-xs-4">
-          <div id="sidebar">
-            <?php get_sidebar(); ?>
-          </div>
+          <?php get_sidebar(); ?>
         </div>
         <!-- end sidebar -->
       </div>
