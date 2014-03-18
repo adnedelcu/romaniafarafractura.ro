@@ -1,7 +1,17 @@
-      <?php get_sidebar(); ?>
+          </div>
+        </div>
+
+        <!-- sidebar -->
+        <div class="col-xs-4">
+          <div id="sidebar">
+            <?php get_sidebar(); ?>
+          </div>
+        </div>
+        <!-- end sidebar -->
+      </div>
     </div>
 
-    <div class="footer">
+    <div id="footer">
     </div>
 
     <!-- Page generated:

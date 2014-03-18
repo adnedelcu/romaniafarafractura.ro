@@ -14,6 +14,8 @@
 
   <body <?php body_class(); ?>>
     <div class="container">
+      <div id="header">
+      </div>
 
       <?php wp_nav_menu(array(
         'theme_location' => 'top_menu',
@@ -35,3 +37,7 @@
         //'walker' => new extended_walker(),
         'fallback_cb' => false,
         )); ?>
+
+      <div class="row">
+        <div class="col-xs-8">
+          <div id="maincontent">
