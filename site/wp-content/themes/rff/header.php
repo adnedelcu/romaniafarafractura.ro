@@ -11,6 +11,7 @@
           rel="stylesheet">
     <meta http-equiv="Content-language"
           content="<?php bloginfo('language'); ?>">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <?php wp_head(); ?>
   </head>
 

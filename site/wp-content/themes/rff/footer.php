@@ -18,5 +18,16 @@
     -->
 
     <?php wp_footer(); ?>
+
+    <script>
+    (function() {
+      $('.rff-widget-title').each(function(i, el) {
+        var span = $(el);
+        var li = span.parents('.widget');
+        span.remove().removeClass('rff-widget-title');
+        li.addClass(span.attr('class'));
+      });
+    })();
+    </script>
   </body>
 </html>
