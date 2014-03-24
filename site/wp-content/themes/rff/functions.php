@@ -16,3 +16,5 @@ function rff_widget_class($title) {
 add_action('init', 'rff_register_menus');
 add_action('init', 'rff_register_sidebars');
 add_action('widget_title', 'rff_widget_class');
+
+add_theme_support('post-thumbnails');

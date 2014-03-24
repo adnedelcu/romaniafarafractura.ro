@@ -16,6 +16,15 @@ function rff_front_page_section($slug) {
             <?= get_the_title() ?>
           </h3>
 
+          <?php if(has_post_thumbnail()) {
+            $image = wp_get_attachment_image_src(
+              get_post_thumbnail_id(),
+              'single-post-thumbnail' );
+
+            echo '<img class="frontpage-postthumbnail" ' .
+                      'src="' . $image[0] . '">';
+          } ?>
+
           <footer>
             de <strong><?= get_the_author(); ?></strong>,
             <?= get_the_date(); ?>
