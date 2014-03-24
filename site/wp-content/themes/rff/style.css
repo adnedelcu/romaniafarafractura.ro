@@ -108,6 +108,10 @@ body {
     font-size: 16px;
 }
 
+.focus .frontpage-sectiontitle {
+    color: #f00;
+}
+
 .stiri .frontpage-section-articles {
     background: #f6f9ee;
 }

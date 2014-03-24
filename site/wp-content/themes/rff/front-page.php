@@ -28,6 +28,8 @@ function rff_front_page_section($slug) {
 }
 ?>
 
+<? rff_front_page_section('focus') ?>
+
 <div class="row">
   <div class="col-xs-6">
     <? rff_front_page_section('informatii') ?>
