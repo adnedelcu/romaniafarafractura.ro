@@ -132,3 +132,36 @@ body {
     margin: 0;
     font-size: 16px;
 }
+
+.widget-implica-te {
+    background: #71bf45;
+    padding: 5px;
+}
+
+.widget-implica-te .widgettitle {
+    color: #fff;
+}
+
+.widget-implica-te .before-btn {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.widget-implica-te .btn {
+    display: block;
+    background: #87d205;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #888;
+    width: 95%;
+    margin: 0 auto;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.widget-implica-te .after-btn {
+    color: #ff0;
+    text-align: center;
+    font-size: 12px;
+    margin: 5px 0 0;
+}
