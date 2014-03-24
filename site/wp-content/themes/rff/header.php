@@ -3,11 +3,11 @@
   <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <title><?php wp_title('|', true, 'right'); ?></title>
-    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css"
+    <link href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css"
           rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css"
           rel="stylesheet">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+    <link href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css"
           rel="stylesheet">
     <meta http-equiv="Content-language"
           content="<?php bloginfo('language'); ?>">
