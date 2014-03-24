@@ -7,6 +7,8 @@
           rel="stylesheet">
     <link href="<?php echo get_stylesheet_directory_uri(); ?>/style.css"
           rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
+          rel="stylesheet">
     <meta http-equiv="Content-language"
           content="<?php bloginfo('language'); ?>">
     <?php wp_head(); ?>
@@ -26,9 +28,9 @@
           <div class="social-left"></div>
 
           <div class="social-container">
-            <a class="social-icon" href="#">g</a>
-            <a class="social-icon" href="#">t</a>
-            <a class="social-icon" href="#">f</a>
+            <a class="social-icon" href="#"><i class="fa fa-google-plus"></i></a>
+            <a class="social-icon" href="#"><i class="fa fa-twitter"></i></a>
+            <a class="social-icon" href="#"><i class="fa fa-facebook"></i></a>
           </div>
 
           <div class="social-right"></div>
