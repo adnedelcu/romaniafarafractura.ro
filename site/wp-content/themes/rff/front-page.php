@@ -13,7 +13,7 @@ function rff_front_page_section($slug) {
 
         <article class="frontpage-post">
           <h3 class="frontpage-posttitle">
-            <?= get_the_title() ?>
+            <a href="<?= get_permalink() ?>"><?= get_the_title() ?></a>
           </h3>
 
           <?php if(has_post_thumbnail()) {
