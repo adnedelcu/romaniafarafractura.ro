@@ -15,7 +15,7 @@
 
         <article class="frontpage-post">
           <h3 class="frontpage-posttitle">
-            <?= get_the_title($query_stiri->post->ID) ?>
+            <?= get_the_title() ?>
           </h3>
         </article>
 
@@ -33,11 +33,11 @@
       $query_stiri = new WP_Query(
         'showposts=5&cat=' . $category_stiri->term_id);
       while($query_stiri->have_posts()) {
-        $query_stiri->next_post(); ?>
+        $query_stiri->the_post(); ?>
 
         <article class="frontpage-post">
           <h3 class="frontpage-posttitle">
-            <?= get_the_title($query_stiri->post->ID) ?>
+            <?= get_the_title() ?>
           </h3>
         </article>
 
