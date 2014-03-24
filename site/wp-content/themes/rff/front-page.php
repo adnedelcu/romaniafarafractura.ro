@@ -17,6 +17,11 @@
           <h3 class="frontpage-posttitle">
             <?= get_the_title() ?>
           </h3>
+
+          <footer>
+            de <strong><?= get_the_author(); ?></strong>,
+            <?= get_the_date(); ?>
+          </footer>
         </article>
 
       <?php } wp_reset_postdata(); ?>
@@ -39,6 +44,11 @@
           <h3 class="frontpage-posttitle">
             <?= get_the_title() ?>
           </h3>
+
+          <footer>
+            de <strong><?= get_the_author(); ?></strong>,
+            <?= get_the_date(); ?>
+          </footer>
         </article>
 
       <?php } wp_reset_postdata(); ?>
