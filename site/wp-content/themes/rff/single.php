@@ -20,7 +20,9 @@ the_post();
     echo '<img class="single-postthumbnail" src="' . $image[0] . '">';
   } ?>
 
-  <? the_content(); ?>
+  <section class="single-postcontent">
+    <? the_content(); ?>
+  </section>
 </article>
 
 <?php get_footer(); ?>
