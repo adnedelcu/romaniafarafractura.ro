@@ -108,6 +108,10 @@ body {
     font-size: 16px;
 }
 
+.news-section .frontpage-section-articles {
+    background: #f6f9ee;
+}
+
 #sidebar {
     background: white;
     padding: 20px 0;
