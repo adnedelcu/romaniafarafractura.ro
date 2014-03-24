@@ -7056,51 +7056,51 @@ msgstr "decembrie"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:146
 msgid "Jan_January_abbreviation"
-msgstr "Ian"
+msgstr "ian"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:147
 msgid "Feb_February_abbreviation"
-msgstr "Feb"
+msgstr "feb"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:148
 msgid "Mar_March_abbreviation"
-msgstr "Mar"
+msgstr "mar"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:149
 msgid "Apr_April_abbreviation"
-msgstr "Apr"
+msgstr "apr"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:150
 msgid "May_May_abbreviation"
-msgstr "Mai"
+msgstr "mai"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:151
 msgid "Jun_June_abbreviation"
-msgstr "Iun"
+msgstr "iun"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:152
 msgid "Jul_July_abbreviation"
-msgstr "Iul"
+msgstr "iul"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:153
 msgid "Aug_August_abbreviation"
-msgstr "Aug"
+msgstr "aug"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:154
 msgid "Sep_September_abbreviation"
-msgstr "Sep"
+msgstr "sep"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:155
 msgid "Oct_October_abbreviation"
-msgstr "Oct"
+msgstr "oct"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:156
 msgid "Nov_November_abbreviation"
-msgstr "Noi"
+msgstr "noi"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:94 wp-includes/locale.php:157
 msgid "Dec_December_abbreviation"
-msgstr "Dec"
+msgstr "dec"
 
 #: wp-includes/js/tinymce/langs/wp-langs.php:95 wp-includes/locale.php:99
 #: wp-includes/locale.php:109 wp-includes/locale.php:122
